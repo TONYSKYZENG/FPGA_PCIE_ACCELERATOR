@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low." projectName="leb128_compression" solutionName="solution1" date="2023-05-06T19:16:12.159+0800" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-65] Unable to satisfy pipeline directive for loop 'VITIS_LOOP_21_1': contains subloop(s) that are not unrolled or flattened." projectName="leb128_compression" solutionName="solution1" date="2023-05-06T19:16:11.918+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-960] Cannot flatten loop 'VITIS_LOOP_21_1' (leb128_compression/LEB128.cpp:18:17) in function 'leb128_compression' either the parent loop or sub loop is do-while loop.&#xA;Resolution: For help on HLS 200-960 see www.xilinx.com/cgi-bin/docs/rdoc?v=2022.2;t=hls+guidance;d=200-960.html" projectName="leb128_compression" solutionName="solution1" date="2023-05-06T19:16:11.803+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-932] Cannot unroll loop 'VITIS_LOOP_32_2' in function 'leb128_compression' completely: variable loop bound." projectName="leb128_compression" solutionName="solution1" date="2023-05-06T19:16:11.726+0800" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

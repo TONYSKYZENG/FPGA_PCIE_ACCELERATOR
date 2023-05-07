@@ -1,0 +1,11 @@
+===================================
+Configuration Memory information
+===================================
+File Format        MCS
+Interface          SPIX4
+Size               32M
+Start Address      0x00000000
+End Address        0x01FFFFFF
+
+Addr1         Addr2         Date                    File(s)
+0x00000000    0x0034F53F    Jul  8 10:09:55 2020    C:/Users/Administrator/Desktop/K7325/K727_PCIE_XDMA/K727_PCIE_XDMA.runs/impl_1/design_1_wrapper.bit

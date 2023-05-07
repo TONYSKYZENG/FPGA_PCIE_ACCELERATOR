@@ -1,0 +1,12 @@
+vhdl xil_defaultlib  \
+"../../../../../k734_pcie_simple/K727_PCIE_XDMA.gen/sources_1/bd/design_1/ip/design_1_rst_mig_7series_0_100M_3/sim/design_1_rst_mig_7series_0_100M_3.vhd" \
+"../../../../../k734_pcie_simple/K727_PCIE_XDMA.gen/sources_1/bd/design_1/ip/design_1_axi_smc_3/bd_0/ip/ip_1/sim/bd_ae83_psr0_0.vhd" \
+"../../../../../k734_pcie_simple/K727_PCIE_XDMA.gen/sources_1/bd/design_1/ip/design_1_axi_smc_3/bd_0/ip/ip_2/sim/bd_ae83_psr_aclk_0.vhd" \
+"../../../../../k734_pcie_simple/K727_PCIE_XDMA.gen/sources_1/bd/design_1/ip/design_1_axi_smc_3/bd_0/ip/ip_3/sim/bd_ae83_psr_aclk1_0.vhd" \
+"../../../../../k734_pcie_simple/K727_PCIE_XDMA.gen/sources_1/bd/design_1/ip/design_1_axi_smc_3/bd_0/ip/ip_4/sim/bd_ae83_psr_aclk2_0.vhd" \
+"../../../../../k734_pcie_simple/K727_PCIE_XDMA.gen/sources_1/bd/design_1/ip/design_1_axi_smc_3/bd_0/ip/ip_5/sim/bd_ae83_psr_aclk3_0.vhd" \
+"../../../../../k734_pcie_simple/K727_PCIE_XDMA.gen/sources_1/bd/design_1/ip/design_1_util_ds_buf_0_1/util_ds_buf.vhd" \
+"../../../../../k734_pcie_simple/K727_PCIE_XDMA.gen/sources_1/bd/design_1/ip/design_1_util_ds_buf_0_1/sim/design_1_util_ds_buf_0_1.vhd" \
+"../../../../../k734_pcie_simple/K727_PCIE_XDMA.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/sim/design_1_axi_gpio_0_0.vhd" \
+
+nosort

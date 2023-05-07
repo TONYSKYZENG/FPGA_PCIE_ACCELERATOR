@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed Jul 22 18:47:59 2020
+# Process ID: 14852
+# Current directory: C:/Users/Administrator/Desktop/K7325/DEMO/k734_pcie_simple
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11984 C:\Users\Administrator\Desktop\K7325\DEMO\k734_pcie_simple\K727_PCIE_XDMA.xpr
+# Log file: C:/Users/Administrator/Desktop/K7325/DEMO/k734_pcie_simple/vivado.log
+# Journal file: C:/Users/Administrator/Desktop/K7325/DEMO/k734_pcie_simple\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Administrator/Desktop/K7325/DEMO/k734_pcie_simple/K727_PCIE_XDMA.xpr
+update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/Administrator/Desktop/K7325/DEMO/k734_pcie_simple/K727_PCIE_XDMA.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7k325t_0]
+current_hw_device [get_hw_devices xc7k325t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7k325t_0] 0]
+create_hw_cfgmem -hw_device [get_hw_devices xc7k325t_0] -mem_dev [lindex [get_cfgmem_parts {mt25ql256-spi-x1_x2_x4}] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {C:/Users/Administrator/Desktop/K7325/DEMO/k734_pcie_simple/K727_PCIE_XDMA.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
